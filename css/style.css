@@ -31,9 +31,6 @@ html {
   line-height: 1.75em;
   background: #ebebeb;
   position: relative;
-  background: url("../img/bg.jpg");
-  background-size: cover;
-  background-position: top center;
   font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
 }
 body {
@@ -244,7 +241,7 @@ pre {
   line-height: 0;
   height: 180px;
   width: 100%;
-  background: #fff;
+  background: #fff url(http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/banner.jpg);
   background-repeat: repeat;
   overflow: hidden;
 }
