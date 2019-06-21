@@ -187,3 +187,5 @@ githubEmojis:
   unicode: false
   styles:
   localEmojis:
+
+theme: jekyll-theme-architect
