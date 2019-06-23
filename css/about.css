@@ -176,6 +176,15 @@ section .right .project font{
 	font-size: 13px;
 	color:seagreen;
 }
+section .right .project .one img{
+	vertical-align:middle;
+}
+section .right .project .jianli a{
+	color:seagreen;
+}
+section .right .project .jianli a:hover{
+	color:#f40;
+}
 section .right .project .five{
 	margin-bottom: 10px;
 	border-bottom: 1px dashed darkseagreen;
