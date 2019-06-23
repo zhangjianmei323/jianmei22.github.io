@@ -113,7 +113,7 @@ section .left ul a:hover{
 section .right{
 	width: 746px;
 	float: right;
-	height: 1800px;
+	height: 800px;
 	/* 右侧个人介绍的宽度，可更改 */
 }
 section .right .person{
@@ -150,7 +150,7 @@ section .right .person ul li a:hover{
 }
 section .right .project{
 	width:680px ;
-	height: 1075px;
+	height: 475px;
 	box-sizing: border-box;
 	/* background-color: #2E8B57; */
 	/* 检验布局是否合理设置的背景颜色 */
