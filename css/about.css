@@ -1,0 +1,219 @@
+/*
+ 博主：张剑梅
+ */
+body{
+	padding: 0;
+	margin: 0;
+	background-color:lightgray;
+	/* 设置页面整体背景颜色 */
+}
+header{
+	width: 1024px;
+	height: 157px;
+	background-color: #fff;
+	margin: 0 auto;
+	/* 头部居中 */
+	border-bottom: 1px solid darkgrey;
+}
+header .logo{
+	width: 200px;
+}
+header .logo img{
+	float: left;
+	margin-left: 40px;
+}
+header .nav{
+	box-sizing: border-box;
+	width: 710px;
+	height: 157px;
+	overflow: hidden;
+	padding-top: 30px;
+	margin-right: 20px;
+}
+header .nav ul {
+	list-style: none;
+	margin-left: 80px;
+}
+header .nav ul li{
+	border-top: 1px solid black;
+	float: left;
+	padding:10px 50px 10px 40px;
+	border-bottom: 1px solid black;
+}
+header .nav .first{
+	color: darkgreen;
+}
+header .nav ul li a{
+	text-decoration: none;
+	color: gray;
+}
+header .nav ul li a:hover{
+	color:darkgreen;
+	/* 点击后颜色样式 */
+}
+.about{
+	width: 1024px;
+	height: 60px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.about font{
+	width:984px ;
+	display: inline-block;
+	/* font是行间元素，故需要设置display */
+	font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #333333;
+	margin: 15px 0 10px 40px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid seagreen;
+}
+section{
+	width: 1024px;
+	background-color: #fff;
+	height: 1800px;
+	overflow: hidden;
+	/* 消除隐藏浮动 */
+	margin: 0 auto;
+	/* 利用margin使页面居中显示 */
+}
+section .left{
+	width: 278px;
+	float: left;
+	height: 1000px;
+}
+section .left img{
+	margin: 10px 0 0 40px;
+}
+section .left ul{
+	list-style: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+	/* 消除ul、li自身的间距 */
+	margin-left: 40px;
+}
+section .left ul li{
+	width: 120px;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 3px 0 5px 0;
+	border-bottom: 1px solid darkseagreen;
+	
+}
+section .left ul a{
+	text-decoration: none;
+	color: gray;
+	font-family: arial;
+	font-size: 13px;
+}
+section .left ul a:hover{
+	color: darksalmon;
+}
+section .right{
+	width: 746px;
+	float: right;
+	height: 1800px;
+	/* 右侧个人介绍的宽度，可更改 */
+}
+section .right .person{
+	width: 680px;
+	height: 269px;
+	border-bottom: 1px dashed darkseagreen;
+}
+section .right .person font{
+	display: inline-block;
+	font-size: 14px;
+	font-style: normal;
+	color: #333333;
+	margin-bottom: 15px;
+}
+section .right .person ul{
+	margin: 0;
+	padding: 0;
+}
+section .right .person ul li{
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding:2px 0 2px 0;
+	font-family: arial;
+	font-size: 13px;
+	color:grey;
+}
+section .right .person ul li a{
+	text-decoration: none;
+	color: seagreen;
+}
+section .right .person ul li a:hover{
+	color:darksalmon;
+}
+section .right .project{
+	width:680px ;
+	height: 1075px;
+	box-sizing: border-box;
+	/* background-color: #2E8B57; */
+	/* 检验布局是否合理设置的背景颜色 */
+	margin-top: 20px;
+}
+section .right .project .font-1{
+	display: inline-block;
+	font-size: 14px;
+	font-style: normal;
+	color: #333333;
+	margin-bottom: 15px;	
+}
+section .right .project .one,.two,.three,.four,.five{
+	box-sizing: border-box;
+	width: 680px;
+	height: 200px;
+}
+section .right .project font{
+	box-sizing: border-box;
+	margin: 0;
+	padding:2px 0 2px 0;
+	font-family: arial;
+	font-size: 13px;
+	color:seagreen;
+}
+section .right .project .five{
+	margin-bottom: 10px;
+	border-bottom: 1px dashed darkseagreen;
+	/* background-color: #2E8B57; */
+}
+section .right .skill{
+	width: 680px;
+	height: 300px;
+	/* background-color: #2E8B57; */
+}
+section .right .skill .font-1{
+	display: inline-block;
+	font-size: 14px;
+	font-style: normal;
+	color: #333333;
+	margin-bottom: 15px;	
+}
+section .right .skill ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+section .right .skill ul li{
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding:2px 0 2px 0;
+	font-family: arial;
+	font-size: 13px;
+	color:seagreen;
+}
+footer{
+	width: 1024px;
+	height: 24px;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	color:#000;
+	font-family: arial;
+}
