@@ -1,5 +1,5 @@
-@media screen and (max-width: 375px) {
-  body {
+
+body {
     marin: 0 auto;
     font-size: 10px;
     font-family: arial;
@@ -49,5 +49,4 @@ header .avatar .code img{
 	width: 1rem;
 	height: 1rem;
 	background-position: cover;
-}
 }
