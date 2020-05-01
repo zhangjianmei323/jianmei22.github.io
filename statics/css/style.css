@@ -7,8 +7,8 @@ th, td {
 }
 
 #page-loader {
-    background: url(../img/cover.gif) no-repeat center center fixed;
-    background-color: #FFF;
+    background: url(../img/cover.ico) no-repeat center center fixed;
+    background-color: #244;
 }
 
 #page-loader:after {
