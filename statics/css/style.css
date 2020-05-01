@@ -1,0 +1,16 @@
+body {
+  padding-top: 30px;
+}
+
+th, td {
+  text-align: center;
+}
+
+#page-loader {
+    background: url(../img/cover.gif) no-repeat center center fixed;
+    background-color: #FFF;
+}
+
+#page-loader:after {
+    background-color: rgba(255, 255, 255, 0);
+}
